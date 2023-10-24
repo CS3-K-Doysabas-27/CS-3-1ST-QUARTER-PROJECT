@@ -1,0 +1,193 @@
+<html>
+    <header>
+        <title>COMPUTER SCIENCE 3 PROJECT</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Kennisha Samantha L. Doysabas">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="10/24/23">
+    </header>
+	
+    <body>
+        <div class="top">
+            <img src="logo.png" alt="LOGO" height="55px" width="55px">
+            <br>
+            <small>CS-3 PROJECT</small>
+            <br>
+            <small>Kennisha Samantha L. Doysabas</small>
+            <br>
+            <small>Grade 9 Calcium</small>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+			<div id="header">
+					<h1>Frequently Asked Questions</h1>
+					<br>
+					<h4>Here are some questions I expect</h4>
+			</div>
+			<div id="image">
+				<img src="newemoji.webp" height = "70px" width = "150px">
+			</div>
+		<center>
+        <div class="content">
+            <div class="column">
+                
+                <div class="box">
+					<h2>Did the Linnean Classification end with the Two Kingdom System only?</h2>
+					<br>
+					<p>As time passed by, new kingdom systems were made by new scientist. 
+					Now, there are currently six kingdom systems.</p> 
+                </div>
+
+            </div>
+
+            <div class="column">
+			<br>
+                <div class="box">
+				<h2>Did the Linnean Classification end with the 7 taxa only?</h2>
+				<br>
+				<p>The three Domain systems is now added along with the 7 taxa. 
+				This was formulated by Carl Woose along with his colleagues. The Domain is now the most inclusive taxa.</p> 
+               </div>
+            </div>
+		
+        </div>
+		<div id = "last">
+					<h2>How do I remember each taxa in the Linnean Classification without memorizing it one-by-one?</h2>
+					<br>
+					<p>This is a very common question, especially to students who dont want to memorize each taxa with such complex words.
+					To adress this conflict, Taxonomy Mnemonics was made. An approved mnemonic is "<span>D</span>id <span>K</span>ing <span>P</span>hillip
+					<span>C</span>ame <span>O</span>ver <span>F</span>or <span>G</span>ood <span>S</span>paghetti?" Each first letter or the
+					words in this sentence stands a taxon in the Linnean classification. <span>D</span>omain <span>K</span>ingdom, <span>P</span>hylum, <span>C</span>lass,
+					<span>O</span>rder, <span>F</span>amily, <span>G</span>enus, <span>S</span>pecies.</p> 
+				<br>
+                </div>
+		
+    </body>
+	</center>
+    <footer>
+			<small>For more questions, contact:</small>
+			<br>
+			<small>kdoysabas@crc.pshs.edu.ph</small>
+			<br>
+			<small>kennishasamantha@gmail.com</small>
+			<br>
+			<small>09669027464</small>
+    </footer>
+
+    <style>
+        * {
+            margin: 0px;
+			color:white;
+        }
+
+        .top {
+		display:flex;
+        flex-direction:column;
+		padding:0px;
+        align-items:left;
+		background-image: linear-gradient(to right, #432616, #806B2D);
+        }
+		#image {
+			display:flex;
+			justify-content:center;
+			padding-top:5px;
+		}
+
+        body{
+            margin: 0px;
+            padding: 0px;
+			background-image: url("newbackgroundimage.png");
+			background-repeat: no-repeat;
+			background-size:100%;
+			background-filter: brightness(10%);
+			height:1000px;
+			width:100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            border: 1px solid white;
+            margin-top: 0px;
+        }
+
+        nav ul{
+            list-style:none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+			background-image: linear-gradient(to right, #432616, #806B2D);
+        }
+
+        nav li{
+            margin: 0px;
+        }
+        nav a{
+			display: block;
+            padding-top: 15px;
+			padding-right: 100px;
+			padding-bottom:15px;
+			padding-left:100px;
+            text-decoration: none; 
+        }
+
+        nav a:hover{
+            background-color: #432616;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .column {
+            flex: 1px;
+            padding: 20px;
+			
+        }
+		#header {
+			padding:0px;
+			text-align:center;
+			text-shadow: 0 0 10px #e8e4c9, 0 0 20px #e8e4c9, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+		}
+        .box{
+			padding-top:0px;
+			border:1px solid white;
+            width: 600px;
+            height: 200px;
+            justify-content:center;
+            text-align: center;
+			background-color:#C5832B;
+			box-shadow: 0 0 10px #26bf47;
+        }
+		#last {
+			border:1px solid white;
+			width: 650px;
+            height: 250px;
+			position:center;
+			background-color:#C5832B;
+			box-shadow: 0 0 10px #26bf47;
+		}
+		span {
+			font-weight:bolder;
+			text-shadow: 0 0 10px #e8e4c9, 0 0 20px #e8e4c9, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+			}
+
+        footer {
+            background-image: linear-gradient(to right, #432616, #806B2D);
+            color: white;
+            text-align: left;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</html>

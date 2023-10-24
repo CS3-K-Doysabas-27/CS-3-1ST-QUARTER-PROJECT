@@ -1,0 +1,154 @@
+<html>
+    <header>
+        <title>COMPUTER SCIENCE 3 PROJECT</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Kennisha Samantha L. Doysabas">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="10/24/23">
+    </header>
+
+    <body>
+        <div class="top">
+            <img src="Logo.png" alt="LOGO" height="55px" width="55px">
+            <br>
+            <small>CS-3 PROJECT</small>
+            <br>
+            <small>Kennisha Samantha L. Doysabas</small>
+            <br>
+            <small>Grade 9 Calcium</small>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+		<div class = "content">
+		<div class = "column">
+                <h1 class="title">History of Taxonomy</h1>
+				
+                <div class="box">
+				<a href = "#"><img src = "Carolus.png" alt = "Carolus Linneaus: The Father of Modern Taxonomy" height="450px" width="350px"></a>
+                </div>
+            </div>
+			
+            <div class="column">
+                <h1 class="title">Featured Contributions:</h1>
+                <div class="box">
+				<a href = "#"> <img src = "Linnean Classification.png" alt = "Linnean Classification height" height = "150px" width = "350px"></a>
+				<br>
+				<a href = "#"><img src = "Binomial Nomenclature.png" alt = "Binomial Nomenclature" height = "150px" width = "350px"></a>
+				<br>
+				<a href = "#"><img src = "Two Kingdom Systems.png" alt = "The Two Kingdom Systems" height = "150px" width = "350px"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+			<small>For more questions, contact:</small>
+			<br>
+			<small>kdoysabas@crc.pshs.edu.ph</small>
+			<br>
+			<small>kennishasamantha@gmail.com</small>
+			<br>
+			<small>09669027464</small>
+    </footer>
+
+    <style>
+        * {
+            margin: 0px;
+			color:white;
+        }
+        .top {
+        display:flex;
+        flex-direction:column;
+		padding:0px;
+        align-items:left;
+		background-image: linear-gradient(to right, #432616, #806B2D);
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+			background-image: url("newbackgroundimage.png");
+			background-repeat: no-repeat;
+			background-size:100%;
+			background-filter: brightness(10%);
+			height:850px;
+			width:100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        nav {
+			border: 1px solid white;
+            margin-top: 0px;
+        }
+        nav ul{
+            list-style:none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+			background-image: linear-gradient(to right, #432616, #806B2D);
+        }
+        nav li{
+            margin: 0px;
+        }
+        nav a{
+            display: block;
+            padding-top: 15px;
+			padding-right: 100px;
+			padding-bottom:15px;
+			padding-left:100px;
+            text-decoration: none; 
+        }
+        nav a:hover{
+            background-color: #432616;
+
+        }
+        .content {
+            display: flex;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+			justify-content:center;
+			text-shadow: 0 0 10px #e8e4c9, 0 0 20px #e8e4c9, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+        }
+		.column img {
+			padding:3px;
+		}
+		.box img:hover{
+			background-color:white;
+			padding:5px;
+		}
+		.title {
+			display:flex;
+			justify-content:center;
+			}
+
+        .box{
+            width: 100%;
+            height: 100px;
+            margin-right: 20px;
+            text-align: center;
+        }
+        .content-text{
+            margin-top: 15px;;
+        }
+
+        footer {
+            background-image: linear-gradient(to right, #432616, #806B2D);
+            color: white;
+            text-align: left;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</html>
